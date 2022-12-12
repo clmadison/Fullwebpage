@@ -17,3 +17,44 @@ body {
     display: flex;
     width: 37%;
 }
+#one {
+    color: white;
+    text-align: center;
+    background-color: #20425E;
+    width: 175px;
+    margin: auto;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline;
+}
+#two {
+    color: white;
+    text-align: center;
+    background-color: #20425E;
+    width: 175px;
+    margin: auto;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline;
+}
+#three {
+    color: white;
+    text-align: center;
+    background-color: #20425E;
+    width: 175px;
+    margin: auto;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline;
+}
+#button {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
