@@ -12,7 +12,7 @@ body {
   }
   
   .glitch {
-    color: rgb(223, 191, 191);
+    color: #7DF9FF;
     position: relative;
     font-size: 9vw;
     // margin: 70px 200px;
@@ -23,7 +23,7 @@ body {
     content: attr(data-text);
     position: absolute;
     left: -2px;
-    text-shadow: -5px 0 magenta;
+    text-shadow: -5px 0 #7DF9FF;
     background: black;
     overflow: hidden;
     top: 0;
@@ -107,7 +107,7 @@ body {
   
   .glow {
     @extend .glitch;
-    text-shadow: 0 0 1000px rgb(223, 191, 191);
+    text-shadow: 0 0 1000px #7DF9FF;
     color: transparent;
     position: absolute;
     top: 0;
@@ -117,7 +117,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: .8vw;
-    color: rgba(165, 141, 141, .4);
+    color: whitesmoke;
     text-transform: uppercase;
     letter-spacing: 1em;
     text-align: center;
@@ -134,4 +134,3 @@ body {
       transform: rotateX(0deg) skewX(0deg);
     }
   }
-  
